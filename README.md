@@ -1,0 +1,2 @@
+# qt_music_simple_playtool
+用qt制作的简单音乐播放器，还有很多功能没有完善
