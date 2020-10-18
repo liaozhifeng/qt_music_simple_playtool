@@ -1,0 +1,50 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>image/quit.png</file>
+        <file>image/min.png</file>
+        <file>image/max.png</file>
+        <file>image/image/music.png</file>
+        <file>image/image-hover/music-hover.png</file>
+        <file>image/image/Ilike.png</file>
+        <file>image/image-hover/like-hover.png</file>
+        <file>image/image/like.png</file>
+        <file>image/image/playlist.png</file>
+        <file>image/image/play-random.png</file>
+        <file>image/image/play-resently.png</file>
+        <file>image/image-hover/play-resently-hover.png</file>
+        <file>image/image/list.png</file>
+        <file>image/image-hover/list-hover.png</file>
+        <file>image/background/bg3.jpg</file>
+        <file>image/Music_32px_1144946_easyicon.net.png</file>
+        <file>image/circle (9).png</file>
+        <file>image/circle (10).png</file>
+        <file>image/image/next.png</file>
+        <file>image/image/pre.png</file>
+        <file>image/image-hover/pre-hover.png</file>
+        <file>image/image-hover/next-hover.png</file>
+        <file>image/image/播放.png</file>
+        <file>image/image/pase.png</file>
+        <file>image/image/loop.png</file>
+        <file>image/image/loop-list.png</file>
+        <file>image/image/loop-one.png</file>
+        <file>image/image-hover/loop-hover.png</file>
+        <file>image/image-hover/loop-list-hover.png</file>
+        <file>image/image-hover/loop-one-hover.png</file>
+        <file>image/image-hover/play-random-hover.png</file>
+        <file>image/image/sereach.png</file>
+        <file>image/image-hover/sereach-hover.png</file>
+        <file>image/image/music-voice.png</file>
+        <file>image/image-hover/music-voice-hover.png</file>
+        <file>image/like_32px_1101682_easyicon.net.png</file>
+        <file>image/like_outline_32px_1101681_easyicon.net.png</file>
+        <file>image/like_outline_32px_1170275_easyicon.net.png</file>
+        <file>image/cloudmusic.png</file>
+        <file>image/image/add.png</file>
+        <file>image/location_32px_1074876_easyicon.net.png</file>
+        <file>image/image/position.png</file>
+        <file>image/image-hover/position-hover.png</file>
+        <file>image/pf5.png</file>
+        <file>image/face.png</file>
+        <file>image/face-hover.png</file>
+    </qresource>
+</RCC>

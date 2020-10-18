@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1172</width>
+    <height>735</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+
+background-repeat:no-repeat;
+
+
+
+}</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1181</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame#frame{
+border-radius:5px;border-image: url(:/image/image/background/bg3.jpg);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1140</x>
+      <y>0</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:0px;
+background-image: url(:/image/image/quit.png);
+background-color: rgba(255, 255, 255,0);
+background-repeat:no-repeat;
+border:none;
+background-position:center center;
+
+}
+QPushButton:hover{
+
+background-color: rgba(230,0,0,0.5);
+}
+QPushButton:pressed{
+background-color: rgba(95, 95, 95,0.5);
+border-color:rgba(255,255,255,0.3);
+border-style:inset;
+color:rgba(0,0,0,100);
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>0</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:0px;
+background-image: url(:/image/image/max.png);
+background-color: rgba(255, 255, 255,0);
+background-repeat:no-repeat;
+border:none;
+background-position:center center;
+
+}
+
+QPushButton:hover{
+
+
+
+	background-color: rgb(255, 255, 255,0.5);
+
+
+}
+QPushButton:pressed{
+	background-color: rgba(95, 95, 95,0.5);
+border-color:rgba(255,255,255,0.3);
+border-style:inset;
+color:rgba(0,0,0,100);
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>0</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:0px;
+background-image: url(:/image/image/min.png);
+background-color: rgba(255, 255, 255,0);
+background-repeat:no-repeat;
+border:none;
+background-position:center center;
+
+}
+
+QPushButton:hover{
+
+
+
+	background-color: rgb(255, 255, 255,0.5);
+
+
+}
+QPushButton:pressed{
+	background-color: rgba(95, 95, 95,0.5);
+border-color:rgba(255,255,255,0.5);
+border-style:inset;
+color:rgba(0,0,0,100);
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-image: url(:/image/image/image/music.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+
+}
+
+QPushButton:hover{
+
+	background-image: url(:/image/image/image-hover/music-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-image: url(:/image/image/image/music.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>311</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>11</y>
+        <width>291</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+font: 75 12pt &quot;Comic Sans MS&quot;;
+background-color:transparent;
+
+}
+QListWidget::item{
+color:rgb(120,120,120);
+border:none;
+margin-top:3px;
+
+}
+QListWidget::item:hover{
+padding-left:4px;
+margin-top:3px;
+color:rgb(100,100,100);
+background-color:rgba(255,255,255,0.2);
+}
+QListWidget::item:selected{
+outline:none;
+font: 75 9pt &quot;Arial&quot;;
+margin-top:3px;
+padding-left:4px;
+background-color:rgba(255,255,255,0.5);
+color:rgb(0,0,0);
+}
+QListWidget::item:!active{
+margin-top:3px;
+border:none;
+background-color:rgba(255,255,255,0);
+color:rgb(120,120,120);
+}
+
+
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QListWidget" name="listWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>301</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+font: 75 12pt &quot;Comic Sans MS&quot;;
+background-color:transparent;
+
+}
+QListWidget::item{
+color:rgb(120,120,120);
+border:none;
+margin-top:3px;
+
+}
+QListWidget::item:hover{
+padding-left:4px;
+margin-top:3px;
+color:rgb(100,100,100);
+background-color:rgba(255,255,255,0.2);
+
+
+
+}
+QListWidget::item:selected{
+outline:none;
+margin-top:3px;
+padding-left:4px;
+background-color:rgba(255,255,255,0.5);
+color:rgb(0,0,0);
+}
+QListWidget::item:!active{
+margin-top:3px;
+border:none;
+background-color:rgba(255,255,255,0);
+color:rgb(120,120,120);
+}
+
+
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QListWidget" name="listWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>301</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+font: 75 12pt &quot;Comic Sans MS&quot;;
+background-color:transparent;
+
+}
+QListWidget::item{
+color:rgb(120,120,120);
+border:none;
+margin-top:3px;
+
+}
+QListWidget::item:hover{
+padding-left:4px;
+margin-top:3px;
+color:rgb(100,100,100);
+background-color:rgba(255,255,255,0.2);
+
+
+
+}
+QListWidget::item:selected{
+outline:none;
+margin-top:3px;
+padding-left:4px;
+background-color:rgba(255,255,255,0.5);
+color:rgb(0,0,0);
+}
+QListWidget::item:!active{
+margin-top:3px;
+border:none;
+background-color:rgba(255,255,255,0);
+color:rgb(120,120,120);
+}
+
+
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QListWidget" name="listWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>301</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+font: 75 12pt &quot;Comic Sans MS&quot;;
+background-color:transparent;
+
+}
+QListWidget::item{
+color:rgb(120,120,120);
+border:none;
+margin-top:3px;
+
+}
+QListWidget::item:hover{
+padding-left:4px;
+margin-top:3px;
+color:rgb(100,100,100);
+background-color:rgba(255,255,255,0.2);
+
+
+
+}
+QListWidget::item:selected{
+outline:none;
+margin-top:3px;
+padding-left:4px;
+background-color:rgba(255,255,255,0.5);
+color:rgb(0,0,0);
+}
+QListWidget::item:!active{
+margin-top:3px;
+border:none;
+background-color:rgba(255,255,255,0);
+color:rgb(120,120,120);
+}
+
+
+
+</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-image: url(:/image/image/image/like.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+
+}
+
+QPushButton:hover{
+
+	background-image: url(:/image/image/image-hover/like-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-image: url(:/image/image/image/like.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>70</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-image: url(:/image/image/image/list.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+
+}
+
+QPushButton:hover{
+
+	background-image: url(:/image/image/image-hover/list-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-image: url(:/image/image/image/list.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>70</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-image: url(:/image/image/image/play-resently.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+
+}
+
+QPushButton:hover{
+
+	background-image: url(:/image/image/image-hover/play-resently-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-image: url(:/image/image/image/play-resently.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+
+	font: 75 pt &quot;Comic Sans MS&quot;;
+color:rgba(255,255,255,0.5);
+   
+ 
+
+}</string>
+    </property>
+    <property name="text">
+     <string> XinMusic</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>670</y>
+      <width>41</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-image: url(:/image/image/image/pre.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+
+}
+
+QPushButton:hover{
+
+	background-image: url(:/image/image/image-hover/pre-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-image: url(:/image/image/image/pre.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>670</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+background-image: url(:/image/image/image/pase.png);
+}
+
+QPushButton:hover{
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="shortcut">
+     <string>Space</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>670</y>
+      <width>41</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-image: url(:/image/image/image/next.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+
+}
+
+QPushButton:hover{
+background-image: url(:/image/image/image-hover/next-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-image: url(:/image/image/image/next.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>670</y>
+      <width>561</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    QSlider::add-page:Horizontal
+     {     
+background-color: rgba(255, 255, 255,0.5);
+        height:4px;  
+     } 
+     QSlider::sub-page:Horizontal   
+    {  
+background-color: rgb(96, 126, 92);
+        height:4px;
+     }
+    QSlider::groove:Horizontal   
+    { 
+        background:transparent; 
+        height:4px;
+    }  
+    QSlider::handle:Horizontal  
+    { 
+        height:16px; 
+        width:16px; 
+	
+	border-image: url(:/image/image/circle (9).png);
+  margin: -6 0px; 
+    }
+      
+</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>670</y>
+      <width>41</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+
+}
+
+QPushButton:hover{
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>670</y>
+      <width>41</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+background-image: url(:/image/image/image/loop.png);
+}
+
+QPushButton:hover{
+background-repeat:no-repeat;
+background-position:center center;
+background-image: url(:/image/image/image-hover/loop-hover.png);
+
+}
+QPushButton:pressed{
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>670</y>
+      <width>41</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-image: url(:/image/image/image/position.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+
+}
+
+QPushButton:hover{
+background-image: url(:/image/image/image-hover/position-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-image: url(:/image/image/image/position.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>670</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+background-image: url(:/image/image/image/music-voice.png);
+}
+
+QPushButton:hover{
+
+background-image: url(:/image/image/image-hover/music-voice-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-image: url(:/image/image/image-hover/music-voice-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QSlider" name="verticalSlider">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>500</y>
+      <width>35</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QSlider 
+    {  
+        background-color: rgba(255,255,255,0.2);
+        min-width:5px; 
+        max-width:5px;
+        border:15px solid rgba(255,255,255,0.2); 
+    }
+     QSlider::add-page:vertical
+     {      
+       
+	    background-color: rgb(96, 126, 92);
+        width:4px;
+     }
+     QSlider::sub-page:vertical  
+    {
+        background-color: rgba(255,255,255,0.5); 
+        width:4px;
+     }
+    QSlider::groove:vertical 
+    {
+        background:transparent;
+        width:6px;
+    }
+    QSlider::handle:vertical 
+    {
+         height: 13px;
+        width:13px;
+ 
+ margin: -0 -4px; 
+	border-image: url(:/image/image/circle (10).png);
+     }</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>670</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 11pt &quot;Comic Sans MS&quot;;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>0</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:0px;
+background-image: url(:/image/image/image/add.png);
+background-color: rgba(255, 255, 255,0);
+background-repeat:no-repeat;
+border:none;
+background-position:center center;
+
+}
+
+QPushButton:hover{
+
+
+
+	background-color: rgb(255, 255, 255,0.5);
+
+
+}
+QPushButton:pressed{
+background-color: rgba(95, 95, 95,0.5);
+border-color:rgba(255,255,255,0.5);
+border-style:inset;
+color:rgba(0,0,0,100);
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color: rgba(255, 255, 255,150);
+border-style:outset;
+
+border-width:0px;
+
+border-radius:10px;
+border-color: rgba(0,0,0,100);
+font:bold 14px;
+color:rgb(180,180,180);
+padding:6px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>10</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-image: url(:/image/image/image/sereach.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+
+}
+
+QPushButton:hover{
+
+
+background-image: url(:/image/image/image-hover/sereach-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+background-image: url(:/image/image/image/sereach.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>625</y>
+      <width>441</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 11pt &quot;Comic Sans MS&quot;;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>130</y>
+      <width>571</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget{
+font: 75 12pt &quot;Comic Sans MS&quot;;
+background-color:transparent;
+
+}
+QListWidget::item{
+color:rgb(120,120,120);
+border:none;
+margin-top:3px;
+
+}
+QListWidget::item:hover{
+padding-left:4px;
+margin-top:3px;
+color:rgb(100,100,100);
+background-color:rgba(255,255,255,0.2);
+}
+QListWidget::item:selected{
+outline:none;
+margin-top:3px;
+padding-left:4px;
+background-color: rgb(255, 255, 255);
+font: 87 12pt &quot;Arial&quot;;
+	color: rgb(255, 255, 0);
+}
+QListWidget::item:!active{
+margin-top:3px;
+border:none;
+background-color:rgba(255,255,255,0);
+color:rgb(120,120,120);
+}
+
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_17">
+    <property name="geometry">
+     <rect>
+      <x>971</x>
+      <y>0</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-image: url(:/image/image/face.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:none;
+color:transparent;
+
+}
+
+QPushButton:hover{
+
+
+
+background-image: url(:/image/image/face-hover.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+
+}
+QPushButton:pressed{
+ background-image: url(:/image/image/face.png);
+background-repeat:no-repeat;
+background-position:center center;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
